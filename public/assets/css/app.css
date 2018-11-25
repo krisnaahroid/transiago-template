@@ -1,0 +1,258 @@
+@font-face {
+  font-family: 'poppinslight';
+  src: url(".././fonts/Poppins-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'poppinsmedium';
+  src: url(".././fonts/Poppins-Medium.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'poppinsreg';
+  src: url(".././fonts/Poppins-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'poppinsbold';
+  src: url(".././fonts/Poppins-SemiBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'poppinsthin';
+  src: url(".././fonts/Poppins-Thin.ttf") format("truetype"); }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #f1f5f6;
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+.container-resume-ahroidlife .content-ahroidlife {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+  .container-resume-ahroidlife .content-ahroidlife .header-cv {
+    background-color: white;
+    box-sizing: border-box;
+    padding: 10px 30px 10px 30px;
+    height: 65px;
+    box-shadow: 0px 2px 3px 0px rgba(186, 186, 186, 0.3); }
+    .container-resume-ahroidlife .content-ahroidlife .header-cv .inner-header-title {
+      display: table; }
+      .container-resume-ahroidlife .content-ahroidlife .header-cv .inner-header-title img.img-ahroidlife-logo {
+        width: 40px;
+        height: 40px; }
+      .container-resume-ahroidlife .content-ahroidlife .header-cv .inner-header-title p.title-header {
+        display: inline;
+        font-family: poppinsbold;
+        color: #64696c;
+        line-height: normal;
+        display: table-cell;
+        vertical-align: middle;
+        position: relative;
+        right: 60px;
+        font-size: 14px; }
+    .container-resume-ahroidlife .content-ahroidlife .header-cv .inner-header-nav ul.ul-nav-ahroidlife {
+      list-style-type: none;
+      position: relative;
+      top: 25%;
+      float: right; }
+      .container-resume-ahroidlife .content-ahroidlife .header-cv .inner-header-nav ul.ul-nav-ahroidlife li {
+        display: inline;
+        margin-right: 20px;
+        margin-left: 20px; }
+        .container-resume-ahroidlife .content-ahroidlife .header-cv .inner-header-nav ul.ul-nav-ahroidlife li a {
+          text-decoration: none;
+          color: #c8c7c8;
+          font-family: poppinsreg;
+          font-size: 14px; }
+  .container-resume-ahroidlife .content-ahroidlife .content-wrapper {
+    padding: 35px; }
+    .container-resume-ahroidlife .content-ahroidlife .content-wrapper .box-ai .right-content {
+      padding: 20px; }
+      .container-resume-ahroidlife .content-ahroidlife .content-wrapper .box-ai .right-content .title-content-cv {
+        border-bottom: 1px solid rgba(164, 166, 185, 0.2);
+        padding-bottom: 20px; }
+        .container-resume-ahroidlife .content-ahroidlife .content-wrapper .box-ai .right-content .title-content-cv p {
+          font-family: poppinsreg;
+          font-size: 14px;
+          color: #505050; }
+        .container-resume-ahroidlife .content-ahroidlife .content-wrapper .box-ai .right-content .title-content-cv i.socicon-freelancer {
+          float: right;
+          font-size: 24px;
+          color: #72b1eb; }
+      .container-resume-ahroidlife .content-ahroidlife .content-wrapper .box-ai .right-content .results-shot {
+        margin-top: 40px; }
+        .container-resume-ahroidlife .content-ahroidlife .content-wrapper .box-ai .right-content .results-shot img.img-shot {
+          width: 100%;
+          border-radius: 3px; }
+    .container-resume-ahroidlife .content-ahroidlife .content-wrapper .box-ai .box-wrap {
+      background-color: white;
+      box-shadow: 0px 2px 2px 0px rgba(186, 186, 186, 0.2);
+      border-radius: 2px;
+      padding-bottom: 20px;
+      margin-bottom: 28px; }
+      .container-resume-ahroidlife .content-ahroidlife .content-wrapper .box-ai .box-wrap .img-profile {
+        text-align: center; }
+        .container-resume-ahroidlife .content-ahroidlife .content-wrapper .box-ai .box-wrap .img-profile img.user-img {
+          width: 100px;
+          height: 100px;
+          border-radius: 100px;
+          margin-top: 50px;
+          margin-bottom: 15px; }
+      .container-resume-ahroidlife .content-ahroidlife .content-wrapper .box-ai .box-wrap .username-wrap {
+        text-align: center; }
+        .container-resume-ahroidlife .content-ahroidlife .content-wrapper .box-ai .box-wrap .username-wrap p {
+          font-family: poppinsmedium;
+          color: #474747;
+          font-size: 14px; }
+      .container-resume-ahroidlife .content-ahroidlife .content-wrapper .box-ai .box-wrap .work-desc {
+        text-align: center; }
+        .container-resume-ahroidlife .content-ahroidlife .content-wrapper .box-ai .box-wrap .work-desc p {
+          font-family: poppinslight;
+          font-size: 12px;
+          color: #5d5d5d;
+          line-height: 19px; }
+      .container-resume-ahroidlife .content-ahroidlife .content-wrapper .box-ai .box-wrap .buttons-wrap {
+        text-align: center;
+        margin-top: 30px; }
+        .container-resume-ahroidlife .content-ahroidlife .content-wrapper .box-ai .box-wrap .buttons-wrap a.btn-ahroidlife {
+          display: inline-block;
+          width: 35%;
+          height: 30px;
+          font-size: 14px;
+          text-decoration: none;
+          border-radius: 100px;
+          box-sizing: border-box;
+          padding-top: 4px;
+          margin-left: 5px;
+          margin-right: 5px; }
+        .container-resume-ahroidlife .content-ahroidlife .content-wrapper .box-ai .box-wrap .buttons-wrap a.btn-hire {
+          background-color: #58c0da;
+          font-family: poppinsreg;
+          color: white;
+          border: 1px solid #58c0da; }
+        .container-resume-ahroidlife .content-ahroidlife .content-wrapper .box-ai .box-wrap .buttons-wrap a.btn-message {
+          font-family: poppinsreg;
+          color: #92deea;
+          border: 1px solid #92deea; }
+      .container-resume-ahroidlife .content-ahroidlife .content-wrapper .box-ai .box-wrap .link-portofolio-wrap {
+        text-align: center;
+        margin-top: 30px; }
+        .container-resume-ahroidlife .content-ahroidlife .content-wrapper .box-ai .box-wrap .link-portofolio-wrap a {
+          font-size: 14px;
+          font-family: poppinslight;
+          text-decoration: none;
+          color: #afb9cc;
+          margin-left: 20px;
+          margin-right: 20px; }
+          .container-resume-ahroidlife .content-ahroidlife .content-wrapper .box-ai .box-wrap .link-portofolio-wrap a i {
+            font-size: 18px;
+            position: relative;
+            right: 5px;
+            top: 2px; }
+      .container-resume-ahroidlife .content-ahroidlife .content-wrapper .box-ai .box-wrap .icon-info {
+        width: 15px;
+        height: 15px;
+        border: 1px solid #72b1eb;
+        display: inline-block;
+        border-radius: 100px;
+        position: relative;
+        top: 3px; }
+      .container-resume-ahroidlife .content-ahroidlife .content-wrapper .box-ai .box-wrap span.info {
+        margin-left: 10px;
+        font-family: poppinsmedium;
+        color: #4b4b4b;
+        font-size: 14px; }
+      .container-resume-ahroidlife .content-ahroidlife .content-wrapper .box-ai .box-wrap i.socicon-googlemaps {
+        float: right;
+        color: #72b1eb;
+        font-size: 16px;
+        position: relative;
+        top: 2px;
+        cursor: pointer; }
+      .container-resume-ahroidlife .content-ahroidlife .content-wrapper .box-ai .box-wrap .map-wrapper {
+        margin-top: 20px;
+        display: none; }
+      .container-resume-ahroidlife .content-ahroidlife .content-wrapper .box-ai .box-wrap .social-net-info {
+        margin-top: 20px; }
+        .container-resume-ahroidlife .content-ahroidlife .content-wrapper .box-ai .box-wrap .social-net-info p.ls-info {
+          font-family: poppinslight;
+          font-size: 12px;
+          color: #656565;
+          margin-bottom: 15px; }
+          .container-resume-ahroidlife .content-ahroidlife .content-wrapper .box-ai .box-wrap .social-net-info p.ls-info i {
+            padding-right: 10px;
+            font-size: 18px;
+            position: relative;
+            top: 3px;
+            color: #ababab;
+            opacity: .8; }
+    .container-resume-ahroidlife .content-ahroidlife .content-wrapper .box-ai .box-info {
+      padding: 20px; }
+
+.container-resume-ahroidlife .sidenav-ahroidlife {
+  padding-left: 0 !important;
+  background-color: #3d4246; }
+  .container-resume-ahroidlife .sidenav-ahroidlife .search-wrapper {
+    text-align: center;
+    margin-top: 18px; }
+    .container-resume-ahroidlife .sidenav-ahroidlife .search-wrapper img.img-search {
+      position: relative;
+      top: 6px;
+      right: 20px;
+      width: 20px;
+      height: 20px; }
+    .container-resume-ahroidlife .sidenav-ahroidlife .search-wrapper input.input-search {
+      display: inline-block;
+      border-radius: 100px;
+      height: 30px;
+      width: 60%;
+      border: 1px solid #606568;
+      background-color: #3d4246;
+      box-sizing: border-box;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-family: poppinslight;
+      color: #e7e7e7; }
+      .container-resume-ahroidlife .sidenav-ahroidlife .search-wrapper input.input-search:focus {
+        outline: none; }
+  .container-resume-ahroidlife .sidenav-ahroidlife .info-myself-wrapper {
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-right: 20px; }
+    .container-resume-ahroidlife .sidenav-ahroidlife .info-myself-wrapper .wrap-ability {
+      margin-bottom: 100px; }
+      .container-resume-ahroidlife .sidenav-ahroidlife .info-myself-wrapper .wrap-ability .title {
+        padding-bottom: 10px;
+        border-bottom: 1px solid #606568; }
+        .container-resume-ahroidlife .sidenav-ahroidlife .info-myself-wrapper .wrap-ability .title p {
+          font-family: poppinsreg;
+          color: #a1a1a1;
+          font-size: 18px; }
+      .container-resume-ahroidlife .sidenav-ahroidlife .info-myself-wrapper .wrap-ability .list-ability {
+        margin-top: 15px; }
+        .container-resume-ahroidlife .sidenav-ahroidlife .info-myself-wrapper .wrap-ability .list-ability ul.ul-ability {
+          list-style-type: none; }
+          .container-resume-ahroidlife .sidenav-ahroidlife .info-myself-wrapper .wrap-ability .list-ability ul.ul-ability li {
+            font-family: poppinslight;
+            color: #969696;
+            font-size: 16px;
+            margin-bottom: 5px; }
+            .container-resume-ahroidlife .sidenav-ahroidlife .info-myself-wrapper .wrap-ability .list-ability ul.ul-ability li img.img-checkbox {
+              width: 12px;
+              height: 12px;
+              position: relative;
+              top: 3px;
+              opacity: .5;
+              float: right; }
+
+footer {
+  background-color: #4d5460;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center; }
+  footer p {
+    font-family: poppinsreg;
+    color: #9ba5aa;
+    font-size: 14px; }

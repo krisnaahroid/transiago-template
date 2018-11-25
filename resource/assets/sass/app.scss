@@ -1,0 +1,371 @@
+@import 'font';
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #f1f5f6;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container-resume-ahroidlife{
+
+  .content-ahroidlife{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+    .header-cv{
+      background-color: rgb(255, 255, 255);
+      box-sizing: border-box;
+      padding: 10px 30px 10px 30px;
+      height: 65px;
+      box-shadow: 0px 2px 3px 0px rgba(186,186,186,.3);
+
+      .inner-header-title{
+        display: table;
+
+              img.img-ahroidlife-logo{
+                width: 40px;
+                height: 40px;
+              }
+
+              p.title-header{
+                display: inline;
+                font-family: poppinsbold;
+                color: #64696c;
+                line-height: normal;
+                display: table-cell;
+                vertical-align: middle;
+                position: relative;
+                right: 60px;
+                font-size: 14px;
+              }
+      }
+
+      .inner-header-nav{
+
+
+        ul.ul-nav-ahroidlife{
+          list-style-type: none;
+          position: relative;
+          top: 25%;
+          float: right;
+
+          li{
+            display: inline;
+            margin-right: 20px;
+            margin-left: 20px;
+
+            a{
+              text-decoration: none;
+              color: #c8c7c8;
+              font-family: poppinsreg;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+
+    }
+
+    // Content cv
+
+    .content-wrapper{
+      padding: 35px;
+
+
+
+      .box-ai{
+
+        .right-content{
+          padding: 20px;
+
+
+          .title-content-cv{
+            border-bottom: 1px solid rgba(164, 166, 185, 0.2);
+            padding-bottom: 20px;
+            p{
+              font-family: poppinsreg;
+              font-size: 14px;
+              color: #505050;
+            }
+            i.socicon-freelancer{
+              float: right;
+              font-size: 24px;
+              color: #72b1eb;
+            }
+          }
+
+          .results-shot{
+            margin-top: 40px;
+
+            img.img-shot{
+              width: 100%;
+              border-radius: 3px;
+            }
+          }
+
+
+        }
+        .box-wrap{
+          background-color: rgb(255, 255, 255);
+          box-shadow: 0px 2px 2px 0px rgba(186,186,186,.2);
+          border-radius: 2px;
+          padding-bottom: 20px;
+          margin-bottom: 28px;
+
+          .img-profile{
+            text-align: center;
+
+            img.user-img{
+              width: 100px;
+              height: 100px;
+              border-radius: 100px;
+              margin-top: 50px;
+              margin-bottom: 15px;
+            }
+          }
+
+          .username-wrap{
+            text-align: center;
+
+            p{
+              font-family: poppinsmedium;
+              color: #474747;
+              font-size: 14px;
+            }
+          }
+
+          .work-desc{
+            text-align: center;
+
+            p{
+              font-family: poppinslight;
+              font-size: 12px;
+              color: rgb(93, 93, 93);
+              line-height: 19px;
+            }
+          }
+
+          .buttons-wrap{
+            text-align: center;
+            margin-top: 30px;
+
+            a.btn-ahroidlife{
+              display: inline-block;
+              width: 35%;
+              height: 30px;
+              font-size: 14px;
+              text-decoration: none;
+              border-radius: 100px;
+              box-sizing: border-box;
+              padding-top: 4px;
+              margin-left: 5px;
+              margin-right: 5px;
+            }
+
+            a.btn-hire{
+              background-color: #58c0da;
+              font-family: poppinsreg;
+              color: rgb(255, 255, 255);
+              border: 1px solid #58c0da;
+            }
+
+            a.btn-message{
+              font-family: poppinsreg;
+              color: #92deea;
+              border: 1px solid #92deea;
+            }
+          }
+
+          .link-portofolio-wrap{
+            text-align: center;
+            margin-top: 30px;
+
+            a{
+              font-size: 14px;
+              font-family: poppinslight;
+              text-decoration: none;
+              color: rgb(175, 185, 204);
+              margin-left: 20px;
+              margin-right: 20px;
+
+              i{
+                font-size: 18px;
+                position: relative;
+                right: 5px;
+                top: 2px;
+              }
+            }
+          }
+
+          // box 2
+
+          .icon-info{
+            width: 15px;
+            height: 15px;
+            border: 1px solid #72b1eb;
+            display: inline-block;
+            border-radius: 100px;
+            position: relative;
+            top: 3px;
+
+          }
+
+          span.info{
+            margin-left: 10px;
+            font-family: poppinsmedium;
+            color: #4b4b4b;
+            font-size: 14px;
+          }
+
+          i.socicon-googlemaps{
+            float: right;
+            color: #72b1eb;
+            font-size: 16px;
+            position: relative;
+            top: 2px;
+            cursor: pointer;
+          }
+
+          .map-wrapper{
+            margin-top: 20px;
+            display: none;
+          }
+
+          .social-net-info{
+            margin-top: 20px;
+
+            p.ls-info{
+              font-family: poppinslight;
+              font-size: 12px;
+              color: #656565;
+              margin-bottom: 15px;
+
+              i{
+                padding-right: 10px;
+                font-size: 18px;
+                position: relative;
+                top: 3px;
+                color: #ababab;
+                opacity: .8;
+              }
+            }
+          }
+
+
+
+        }
+
+        .box-info{
+          padding: 20px;
+        }
+      }
+
+
+
+    }
+  }
+
+  // ===================== Sidebar
+
+  .sidenav-ahroidlife{
+    padding-left: 0 !important;
+    background-color: #3d4246;
+
+    .search-wrapper{
+      text-align: center;
+      margin-top: 18px;
+      img.img-search{
+        position: relative;
+        top: 6px;
+        right: 20px;
+        width: 20px;
+        height: 20px;
+      }
+
+      input.input-search{
+        display: inline-block;
+        border-radius: 100px;
+        height: 30px;
+        width: 60%;
+        border: 1px solid #606568;
+        background-color: #3d4246;
+        box-sizing: border-box;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: poppinslight;
+        color: #e7e7e7;
+
+        &:focus{
+          outline: none;
+        }
+      }
+    }
+
+    .info-myself-wrapper{
+      margin-top: 50px;
+      padding-left: 30px;
+      padding-right: 20px;
+
+      .wrap-ability{
+        margin-bottom: 100px;
+
+        .title{
+          padding-bottom: 10px;
+          border-bottom: 1px solid #606568;
+
+          p{
+            font-family: poppinsreg;
+            color: rgb(161, 161, 161);
+            font-size: 18px;
+          }
+        }
+
+        .list-ability{
+          margin-top: 15px;
+          ul.ul-ability{
+            list-style-type: none;
+
+            li{
+              font-family: poppinslight;
+              color: #969696;
+              font-size: 16px;
+              margin-bottom: 5px;
+
+
+              img.img-checkbox{
+                width: 12px;
+                height: 12px;
+                position: relative;
+                top: 3px;
+                opacity: .5;
+                float: right;
+              }
+
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+footer{
+  background-color: rgb(77, 84, 96);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+
+  p{
+    font-family: poppinsreg;
+    color: #9ba5aa;
+    font-size: 14px;
+  }
+}
