@@ -17,3 +17,15 @@
 @font-face {
   font-family: 'poppinsthin';
   src: url(".././fonts/Poppins-Thin.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'poppinsemibold';
+  src: url(".././fonts/Poppins-SemiBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'ceramedium';
+  src: url(".././fonts/CeraMedium.otf") format("truetype"); }
+
+@font-face {
+  font-family: 'cerabold';
+  src: url(".././fonts/Cera_Pro_Black.otf") format("truetype"); }

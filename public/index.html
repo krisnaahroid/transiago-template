@@ -4,169 +4,229 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Ahroidlife</title>
+  <title>Transiago</title>
   <link rel="stylesheet" href="assets/css/app.css">
   <link rel="stylesheet" href="assets/css/socicon.css">
   <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
-  <script src="assets/js/app.js" charset="utf-8"></script>
-  <script src="assets/js/jquery-3.3.1.min.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
 </head>
 <body>
-  <div class="container-resume-ahroidlife container-fluid">
-    <div class="row">
-      <div class="col-md-9 content-ahroidlife">
-        <div class="header-cv">
-          <div class="row">
-            <div class="col-md-6 inner-header-title">
-              <img src="assets/img/app.png" alt="app-ahroidlife" class="img-ahroidlife-logo">
-              <p class="title-header">CURRICULUM VITAE</p>
-            </div>
-            <div class="col-md-6 inner-header-nav">
-              <ul class="ul-nav-ahroidlife">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Portofolio</a></li>
-                <li><a href="#">About</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
 
-        <div class="content-wrapper">
-          <div class="row">
-            <div class="col-md-4 box-ai side-profile">
-              <div class="box-wrap">
-                <div class="img-profile">
-                  <img src="assets/img/user.jpeg" class="user-img" alt="">
-                </div>
-                <div class="username-wrap">
-                  <p>Krisna Ahroid</p>
-                </div>
-                <div class="work-desc">
-                  <p>MERN Stack Developer & UI Designer</p>
-                </div>
-
-                <div class="buttons-wrap">
-                  <a href="#" class="btn-ahroidlife btn-hire">Hire Now</a>
-                  <a href="#" class="btn-ahroidlife btn-message">Message</a>
-                </div>
-
-                <div class="link-portofolio-wrap">
-                  <a href="#"><i class="socicon-dribbble"></i>Dribble</a>
-                  <a href="#"><i class="socicon-github"></i>GitHub</a>
-                </div>
-              </div>
-
-              <div class="box-wrap box-info">
-                <div class="icon-info"></div><span class="info">Information</span>
-                <i class="socicon-googlemaps"></i>
-
-                <div class="map-wrapper">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.674823666796!2d106.85192001897124!3d-6.306383843147973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ed8f87ee364b%3A0x3bd69c02c2b0fb72!2sJl.+Tanjung+2+6%2C+RT.7%2FRW.2%2C+Tj.+Bar.%2C+Jagakarsa%2C+Kota+Jakarta+Selatan%2C+Daerah+Khusus+Ibukota+Jakarta+12530!5e0!3m2!1sen!2sid!4v1543051682829" width="100%" height="100" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
-                <div class="social-net-info">
-                  <p class="ls-info"><i class="socicon-mail"></i> ahroidlife@gmail.com</p>
-                  <p class="ls-info"><i class="socicon-instagram"></i> user.ahroidlife</p>
-                  <p class="ls-info"><i class="socicon-facebook"></i> ahroidlife</p>
-                  <p class="ls-info"><i class="socicon-whatsapp"></i> (+62) 831-4865-6290</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-8 box-ai">
-
-              <div class="box-wrap right-content">
-                <div class="title-content-cv">
-                  <p>RECOMMENDED SHOTS <i class="socicon-freelancer"></i></p>
-                </div>
-                <div class="results-shot">
-                  <div class="row">
-                    <div class="col-md-6">
-                      <img src="assets/img/img1.jpg" class="img-shot" alt="img1">
-                    </div>
-                    <div class="col-md-6">
-                      <img src="assets/img/img2.gif" class="img-shot" alt="img1">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+  <header>
+    <div class="wrapper-nav">
+      <div class="wrap-logo">
+        <!-- <img src="/assets/img/logo.png" alt=""> -->
       </div>
+      <div class="wrap-navmenu">
+        <ul class="ul-transiago ul-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Faq</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <ul class="ul-transiago ul-btn">
+          <li class="btn-ls"><a href="#">LOG IN</a></li>
+          <li class="btn-ls active"><a href="#">SIGN UP</a></li>
+        </ul>
+      </div>
+    </div>
 
+    <div class="wrapper-greeting">
+      <div class="wrap-hi" id="hi">
+        <img src="/assets/img/hi.png" alt="hi" class="zoomIn animated delay-2s">
+        <p class="name-transiago lightSpeedIn animated delay-3s">Transiago</p>
+        <p class="tagname flipInX animated delay-3s">Build your dream with us and make it better</p>
 
-      <div class="col-md-3 sidenav-ahroidlife">
-        <div class="search-wrapper">
-          <form action="#">
-            <img src="assets/img/search.png" class="img-search" alt=""><input type="text" class="input-search" placeholder="Search">
-          </form>
-        </div>
-
-        <div class="info-myself-wrapper">
-          <div class="wrap-ability">
-            <div class="title">
-              <p>DESIGN SKILLS</p>
-            </div>
-            <div class="list-ability">
-              <ul class="ul-ability">
-                <li>User Interfaces <img src="assets/img/check-box.png" alt="" class="img-checkbox"></li>
-                <li>Prototyping <img src="assets/img/check-box.png" alt="" class="img-checkbox"></li>
-                <li>Problem solving <img src="assets/img/check-box.png" alt="" class="img-checkbox"></li>
-                <li>Design thinking <img src="assets/img/check-box.png" alt="" class="img-checkbox"></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="wrap-ability">
-            <div class="title">
-              <p>TECH SKILLS</p>
-            </div>
-            <div class="list-ability">
-              <ul class="ul-ability">
-                <li>HTML & CSS (sass)<img src="assets/img/check-box.png" alt="" class="img-checkbox"></li>
-                <li>Javascript & Jquery <img src="assets/img/check-box.png" alt="" class="img-checkbox"></li>
-                <li>Gulp, Git <img src="assets/img/check-box.png" alt="" class="img-checkbox"></li>
-                <li>ReactJs & Redux <img src="assets/img/check-box.png" alt="" class="img-checkbox"></li>
-                <li>NodeJs (ExpressJs) <img src="assets/img/check-box.png" alt="" class="img-checkbox"></li>
-                <li>MongoDb <img src="assets/img/check-box.png" alt="" class="img-checkbox"></li>
-                <li>Adobe Illustrator, Photoshop <img src="assets/img/check-box.png" alt="" class="img-checkbox"></li>
-                <li>Figma & Adobe XD <img src="assets/img/check-box.png" alt="" class="img-checkbox"></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="wrap-ability">
-            <div class="title">
-              <p>HOBBIES</p>
-            </div>
-            <div class="list-ability">
-              <ul class="ul-ability">
-                <li>Playing guitar<img src="assets/img/heart.png" alt="" class="img-checkbox"></li>
-                <li>Traveling <img src="assets/img/heart.png" alt="" class="img-checkbox"></li>
-                <li>Reading <img src="assets/img/heart.png" alt="" class="img-checkbox"></li>
-                <li>Cooking <img src="assets/img/heart.png" alt="" class="img-checkbox"></li>
-
-              </ul>
-            </div>
-          </div>
+        <div class="arrow-bottom-btn bounceIn animated delay-3s">
+          <i class="fas fa-angle-down "></i>
         </div>
       </div>
     </div>
+
+    <div class="wrap-socicon">
+      <ul class="socicon">
+        <li><a href="#"><i class="socicon-whatsapp lightSpeedIn animated delay-1s"></i></a></li>
+        <li><a href="#"><i class="socicon-facebook lightSpeedIn animated delay-2s"></i></a></li>
+        <li><a href="#"><i class="socicon-instagram lightSpeedIn animated delay-3s"></i></a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="wrapper-content">
+    <section id="transiago-intro" class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="/assets/img/transiago.svg" alt="transiago">
+        </div>
+        <div class="col-md-6 intro">
+          <div class="circle"></div>
+          <h1>What it’s Transiago</h1>
+          <p>Transiago It is a long established fact that a reader will be
+          distracted by the readable content of a page
+          when looking at its layout.</p>
+
+          <a href="#" class="btn-continue">Continue</a>
+        </div>
+      </div>
+    </section>
+    <section id="Service">
+        <div class="wrapper-service">
+          <div class="title-service"><p>Our services</p></div>
+
+          <div class="box-service container">
+            <div class="row wrap-bar-service">
+              <div class="col-md-6">
+                <img src="/assets/img/phone.svg" alt="phone"> <span class="sh-number-phone">(+62) 831-4865-6290</span>
+              </div>
+              <div class="col-md-6 service-notify">
+                <span>Our Service</span><span class="circle"></span>
+              </div>
+            </div>
+
+            <div class="row list-service">
+              <div class="col-md-4 item-service">
+                <div class="wrap-img-service">
+                  <img src="/assets/img/transiago-anime1.svg" alt="transiago anime1">
+                </div>
+                <div class="btn-continue-service">
+                  <a href="#" class="btn-service">INTERPRETER</a>
+                </div>
+              </div>
+              <div class="col-md-4 item-service">
+                <div class="wrap-img-service">
+                  <img src="/assets/img/transiago-anime2.svg" alt="transiago anime1">
+                </div>
+                <div class="btn-continue-service">
+                  <a href="#" class="btn-service">SWORN TRANSLATION</a>
+                </div>
+              </div>
+              <div class="col-md-4 item-service">
+                <div class="wrap-img-service">
+                  <img src="/assets/img/transiago-anime1.svg" alt="transiago anime1">
+                </div>
+                <div class="btn-continue-service">
+                  <a href="#" class="btn-service">INTERPRETER</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+    </section>
+    <section id="points">
+      <div class="title-of-point">
+        <p><span>Why!</span> you should choose transiago</p>
+      </div>
+
+      <div class="wrap-point container">
+        <div class="box image">
+          <img src="/assets/img/high-quality-translation-transiago.svg" alt="high quality translation transiago">
+          <h1>High-Quality</h1>
+        </div>
+        <div class="box">
+          <div class="wrap-greeting">
+            <div class="circle">1</div>
+            <h1>Quality is number one</h1>
+            <p>Transiago It is a long established fact that a reader will be
+              distracted by the readable content of a page
+              when looking at its layout.</p>
+          </div>
+        </div>
+      </div>
+      <div class="wrap-point container reverse">
+        <div class="box image">
+          <img src="/assets/img/security-translation-transiago.svg" alt="security translation transiago">
+          <h1>Security</h1>
+        </div>
+        <div class="box">
+          <div class="wrap-greeting">
+            <div class="circle">2</div>
+            <h1>High-security</h1>
+            <p>Transiago It is a long established fact that a reader will be
+              distracted by the readable content of a page
+              when looking at its layout.</p>
+          </div>
+        </div>
+      </div>
+      <div class="wrap-point container">
+        <div class="box image">
+          <img src="/assets/img/fast-translation-transiago.svg" alt="fast translation transiago">
+          <h1>Fast</h1>
+        </div>
+        <div class="box">
+          <div class="wrap-greeting">
+            <div class="circle">3</div>
+            <h1>Faster</h1>
+            <p>Transiago It is a long established fact that a reader will be
+              distracted by the readable content of a page
+              when looking at its layout.</p>
+          </div>
+        </div>
+      </div>
+      <div class="wrap-point container reverse">
+        <div class="box image">
+          <img src="/assets/img/accessibility-translation-transiago.svg" alt="security translation transiago">
+          <h1>Accessibility</h1>
+        </div>
+        <div class="box">
+          <div class="wrap-greeting">
+            <div class="circle">4</div>
+            <h1>Accessibility</h1>
+            <p>Transiago It is a long established fact that a reader will be
+              distracted by the readable content of a page
+              when looking at its layout.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="counter">
+      <div class="talking">
+        <p>TALKING ABOUT NUMBERS</p>
+        <h1>We believe in number</h1>
+      </div>
+      <div class="wrap-counter">
+        <div class="box-item">
+          <div class="box-cn">
+            <div class="bx-itm itm1">
+              <div class="count-point-1 count-point">
+                <p>1028 P+</p>
+              </div>
+              <div class="note-p">
+                <p>Worth projects using
+                  Transiago.com</p>
+              </div>
+            </div>
+            <div class="bx-itm itm1">
+              <div class="count-point-2 count-point">
+                <p>2028 U+</p>
+              </div>
+              <div class="note-p">
+                <p>People using <br>
+                  trasiago</p>
+              </div>
+            </div>
+          </div>
+          <div class="box-cn">
+            <div class="bx-itm itm3">
+              <div class="count-point-3 count-point">
+                <p>1 A+</p>
+              </div>
+              <div class="note-p">
+                <p>Communication is the key to personal success</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
-  <footer>
-    <p>&copy; ahroidlife.com</p>
-  </footer>
 
 
-<script type="text/javascript">
-$(document).ready(function(){
-
-  $('.socicon-googlemaps').click(function(){
-    $('.map-wrapper').fadeToggle();
-  });
-
-
-});
-</script>
-
+<script src="/assets/js/app.js" charset="utf-8"></script>
 </body>
 </html>
