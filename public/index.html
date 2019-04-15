@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -17,215 +19,89 @@
 </head>
 <body>
 
-  <header>
-    <div class="wrapper-nav">
+<!-- Header -->
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light wrapper-navbar">
+    <div class="container-fluid d-flex justify-content-between">
       <div class="wrap-logo">
-        <!-- <img src="/assets/img/logo.png" alt=""> -->
+        <img src="assets/img/Logo.png" alt="logo" class="logo-transiago">
+        <p class="tagname">TRANSIA<span>GO</span></p>
       </div>
-      <div class="wrap-navmenu">
-        <ul class="ul-transiago ul-nav">
+      <div class="navmenu-wrap">
+        <ul class="navul">
           <li><a href="#">Home</a></li>
-          <li><a href="#">Service</a></li>
-          <li><a href="#">Faq</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Blog</a></li>
         </ul>
-        <ul class="ul-transiago ul-btn">
-          <li class="btn-ls"><a href="#">LOG IN</a></li>
-          <li class="btn-ls active"><a href="#">SIGN UP</a></li>
-        </ul>
+        <div class="btn-hero">
+          <ul>
+            <li><a href="#" class="btn-login">LOG IN</a></li>
+            <li><a href="#" class="btn-getStarted">Get Started</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+  <div class="wrap-hero d-flex">
+    <div class="wrap-tagline align-self-center">
+      <p class="title-tagline">TRANSIAGO</p>
+        <p class="body-tagline">Translation Agency & <span>Localization Platform</span></p>
+      <p class="overview-tagline">We are giving a friendly platform for you, technology and our services. <br>
+Transiago is a dedicated platform for translation.</p>
+      <div class="dots">
+        <span class="active"></span>
+        <span></span>
+        <span></span>
       </div>
     </div>
-
-    <div class="wrapper-greeting">
-      <div class="wrap-hi" id="hi">
-        <img src="/assets/img/hi.png" alt="hi" class="zoomIn animated delay-2s">
-        <p class="name-transiago lightSpeedIn animated delay-3s">Transiago</p>
-        <p class="tagname flipInX animated delay-3s">Build your dream with us and make it better</p>
-
-        <div class="arrow-bottom-btn bounceIn animated delay-3s">
-          <i class="fas fa-angle-down "></i>
-        </div>
-      </div>
-    </div>
-
-    <div class="wrap-socicon">
-      <ul class="socicon">
-        <li><a href="#"><i class="socicon-whatsapp lightSpeedIn animated delay-1s"></i></a></li>
-        <li><a href="#"><i class="socicon-facebook lightSpeedIn animated delay-2s"></i></a></li>
-        <li><a href="#"><i class="socicon-instagram lightSpeedIn animated delay-3s"></i></a></li>
-      </ul>
-    </div>
-  </header>
-
-  <div class="wrapper-content">
-    <section id="transiago-intro" class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <img src="/assets/img/transiago.svg" alt="transiago">
-        </div>
-        <div class="col-md-6 intro">
-          <div class="circle"></div>
-          <h1>What it’s Transiago</h1>
-          <p>Transiago It is a long established fact that a reader will be
-          distracted by the readable content of a page
-          when looking at its layout.</p>
-
-          <a href="#" class="btn-continue">Continue</a>
-        </div>
-      </div>
-    </section>
-    <section id="Service">
-        <div class="wrapper-service">
-          <div class="title-service"><p>Our services</p></div>
-
-          <div class="box-service container">
-            <div class="row wrap-bar-service">
-              <div class="col-md-6">
-                <img src="/assets/img/phone.svg" alt="phone"> <span class="sh-number-phone">(+62) 831-4865-6290</span>
-              </div>
-              <div class="col-md-6 service-notify">
-                <span>Our Service</span><span class="circle"></span>
-              </div>
-            </div>
-
-            <div class="row list-service">
-              <div class="col-md-4 item-service">
-                <div class="wrap-img-service">
-                  <img src="/assets/img/transiago-anime1.svg" alt="transiago anime1">
-                </div>
-                <div class="btn-continue-service">
-                  <a href="#" class="btn-service">INTERPRETER</a>
-                </div>
-              </div>
-              <div class="col-md-4 item-service">
-                <div class="wrap-img-service">
-                  <img src="/assets/img/transiago-anime2.svg" alt="transiago anime1">
-                </div>
-                <div class="btn-continue-service">
-                  <a href="#" class="btn-service">SWORN TRANSLATION</a>
-                </div>
-              </div>
-              <div class="col-md-4 item-service">
-                <div class="wrap-img-service">
-                  <img src="/assets/img/transiago-anime1.svg" alt="transiago anime1">
-                </div>
-                <div class="btn-continue-service">
-                  <a href="#" class="btn-service">INTERPRETER</a>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-    </section>
-    <section id="points">
-      <div class="title-of-point">
-        <p><span>Why!</span> you should choose transiago</p>
-      </div>
-
-      <div class="wrap-point container">
-        <div class="box image">
-          <img src="/assets/img/high-quality-translation-transiago.svg" alt="high quality translation transiago">
-          <h1>High-Quality</h1>
-        </div>
-        <div class="box">
-          <div class="wrap-greeting">
-            <div class="circle">1</div>
-            <h1>Quality is number one</h1>
-            <p>Transiago It is a long established fact that a reader will be
-              distracted by the readable content of a page
-              when looking at its layout.</p>
-          </div>
-        </div>
-      </div>
-      <div class="wrap-point container reverse">
-        <div class="box image">
-          <img src="/assets/img/security-translation-transiago.svg" alt="security translation transiago">
-          <h1>Security</h1>
-        </div>
-        <div class="box">
-          <div class="wrap-greeting">
-            <div class="circle">2</div>
-            <h1>High-security</h1>
-            <p>Transiago It is a long established fact that a reader will be
-              distracted by the readable content of a page
-              when looking at its layout.</p>
-          </div>
-        </div>
-      </div>
-      <div class="wrap-point container">
-        <div class="box image">
-          <img src="/assets/img/fast-translation-transiago.svg" alt="fast translation transiago">
-          <h1>Fast</h1>
-        </div>
-        <div class="box">
-          <div class="wrap-greeting">
-            <div class="circle">3</div>
-            <h1>Faster</h1>
-            <p>Transiago It is a long established fact that a reader will be
-              distracted by the readable content of a page
-              when looking at its layout.</p>
-          </div>
-        </div>
-      </div>
-      <div class="wrap-point container reverse">
-        <div class="box image">
-          <img src="/assets/img/accessibility-translation-transiago.svg" alt="security translation transiago">
-          <h1>Accessibility</h1>
-        </div>
-        <div class="box">
-          <div class="wrap-greeting">
-            <div class="circle">4</div>
-            <h1>Accessibility</h1>
-            <p>Transiago It is a long established fact that a reader will be
-              distracted by the readable content of a page
-              when looking at its layout.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="counter">
-      <div class="talking">
-        <p>TALKING ABOUT NUMBERS</p>
-        <h1>We believe in number</h1>
-      </div>
-      <div class="wrap-counter">
-        <div class="box-item">
-          <div class="box-cn">
-            <div class="bx-itm itm1">
-              <div class="count-point-1 count-point">
-                <p>1028 P+</p>
-              </div>
-              <div class="note-p">
-                <p>Worth projects using
-                  Transiago.com</p>
-              </div>
-            </div>
-            <div class="bx-itm itm1">
-              <div class="count-point-2 count-point">
-                <p>2028 U+</p>
-              </div>
-              <div class="note-p">
-                <p>People using <br>
-                  trasiago</p>
-              </div>
-            </div>
-          </div>
-          <div class="box-cn">
-            <div class="bx-itm itm3">
-              <div class="count-point-3 count-point">
-                <p>1 A+</p>
-              </div>
-              <div class="note-p">
-                <p>Communication is the key to personal success</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
   </div>
+  <div class="btn-arrow-bottom">
+    <div class="btn-slide-down">
+      <img src="assets/img/arrow-bottom.png" alt="arrow-bottom">
+    </div>
+  </div>
+</header>
+<section class="feature-hero">
+    <div class="d-flex justify-content-between quick-access-wrapper">
+      <div class="btn-actions-wrapper">
+        <a href="#" class="btn-blue button-action margin-lf">Get Started</a>
+        <a href="#" class="btn-grey button-action">Order Translation</a>
+      </div>
+      <div class="wrapper-search-bar">
+        <form action="#">
+          <input type="text" class="quick-access" placeholder="Quick Access">
+        </form>
+      </div>
+    </div>
+</section>
+<section class="overview-product">
+    <div class="d-flex justify-content-between wrapper-box-overview container-fluid">
+      <div class="wrap-overview-product-left align-self-center">
+        <div class="box-overview">
+          <p class="box-title">DESKTOP, web AND MOBILE APP</p>
+          <h1>Scalable <span>and</span> Growth up</h1>
+          <p>Transiago gives you all the tools you need for your <br>
+            localization process and Transiago offers a complete <br>
+            localization solution for all types of businesses <br>
+            and individuals.</p>
+            <div class="group-buttons">
+              <a href="#" class="left-btn">Get Started <img src="assets/img/Polygon.png" alt="Polygon"></a>
+              <a href="#" class="right-btn">See Features</a>
+            </div>
+        </div>
+      </div>
+      <div class="wrap-overview-product-right align-self-center">
+        <img src="assets/img/mockup1.png" class="mockup1" alt="">
+        <img src="assets/img/mockup2.png" class="mockup2" alt="">
+        <img src="assets/img/mockup3.png" class="mockup3" alt="">
+      </div>
+    </div>
+</section>
 
+<!-- End Header -->
 
 <script src="/assets/js/app.js" charset="utf-8"></script>
 </body>
