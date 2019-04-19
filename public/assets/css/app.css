@@ -6,6 +6,9 @@
   font-family: 'poppinssemi';
   src: font-url(".././fonts/Poppins-SemiBold.ttf") format("truetype"); }
 
+.mr-top {
+  margin-top: 25px; }
+
 header {
   background-image: url(".././img/chart.png"), url(".././img/clouds.png"), linear-gradient(180deg, #F4F7FF 0%, #F1F5FF 100%);
   background-repeat: no-repeat;
@@ -222,14 +225,16 @@ header {
       line-height: normal;
       color: #575962; }
 
-.overview-product {
-  background: linear-gradient(180deg, #F4F7FF 0%, #F1F5FF 100%);
+.light-blue {
+  background: linear-gradient(180deg, #F4F7FF 0%, #F1F5FF 100%); }
+
+.transiago-container {
   height: 100vh; }
-  .overview-product .wrapper-box-overview {
+  .transiago-container .wrapper-box-overview {
     height: 100vh; }
-  .overview-product .wrap-overview-product-left .box-overview {
+  .transiago-container .wrap-overview-product-left .box-overview {
     margin-left: 50px; }
-    .overview-product .wrap-overview-product-left .box-overview .box-title {
+    .transiago-container .wrap-overview-product-left .box-overview .box-title {
       font-family: 'Roboto', sans-serif;
       font-style: normal;
       font-weight: 500;
@@ -239,7 +244,7 @@ header {
       text-transform: uppercase;
       color: #3D4F9F;
       margin-bottom: 20px; }
-    .overview-product .wrap-overview-product-left .box-overview h1 {
+    .transiago-container .wrap-overview-product-left .box-overview h1 {
       font-family: 'Quicksand', sans-serif;
       font-style: normal;
       font-weight: 500;
@@ -247,9 +252,9 @@ header {
       line-height: normal;
       color: #3D4F9F;
       margin-bottom: 20px; }
-      .overview-product .wrap-overview-product-left .box-overview h1 span {
+      .transiago-container .wrap-overview-product-left .box-overview h1 span {
         font-weight: normal; }
-    .overview-product .wrap-overview-product-left .box-overview p {
+    .transiago-container .wrap-overview-product-left .box-overview p {
       font-family: 'Roboto', sans-serif;
       font-style: normal;
       font-weight: normal;
@@ -257,22 +262,22 @@ header {
       line-height: 20px;
       letter-spacing: 0.03em;
       color: #8D96BD; }
-  .overview-product .wrap-overview-product-right {
+  .transiago-container .wrap-overview-product-right {
     position: relative;
     text-align: center; }
-    .overview-product .wrap-overview-product-right .mockup1 {
+    .transiago-container .wrap-overview-product-right .mockup1 {
       width: 90%; }
-    .overview-product .wrap-overview-product-right .mockup2 {
+    .transiago-container .wrap-overview-product-right .mockup2 {
       position: absolute;
       bottom: 15%;
       left: 0; }
-    .overview-product .wrap-overview-product-right .mockup3 {
+    .transiago-container .wrap-overview-product-right .mockup3 {
       position: absolute;
       right: 24%;
       bottom: -12%; }
-  .overview-product .group-buttons {
+  .transiago-container .group-buttons {
     margin-top: 20px; }
-    .overview-product .group-buttons .left-btn {
+    .transiago-container .group-buttons .left-btn {
       background: #4C85FF;
       box-shadow: 0px 5px 15px rgba(188, 199, 255, 0.75);
       border-top-left-radius: 2px;
@@ -286,7 +291,7 @@ header {
       font-size: 13px;
       line-height: normal;
       color: #FFFFFF; }
-    .overview-product .group-buttons .right-btn {
+    .transiago-container .group-buttons .right-btn {
       border: 1px solid #D1D1E4;
       padding: 9px 15px 9px 15px;
       border-top-right-radius: 2px;
@@ -300,3 +305,29 @@ header {
       text-align: center;
       margin-left: -4px;
       color: #ADB4D2; }
+
+.business-section {
+  background-image: url(".././img/clouds2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+  .business-section .business-note {
+    width: 80%;
+    margin: 0 auto; }
+    .business-section .business-note h1 {
+      font-family: 'Quicksand', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: normal;
+      color: #575962; }
+    .business-section .business-note P {
+      font-family: 'Quicksand', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: normal;
+      color: #575962;
+      margin-top: 25px; }
+  .business-section .business-image {
+    margin: 0 auto; }

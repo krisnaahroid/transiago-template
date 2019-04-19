@@ -10,6 +10,13 @@
     src: font-url('.././fonts/Poppins-SemiBold.ttf') format('truetype');
 }
 
+// Color
+
+// Margin
+.mr-top{
+  margin-top: 25px;
+}
+
 
 header{
   // background: linear-gradient(180deg, #F4F7FF 0%, #F1F5FF 100%);
@@ -272,9 +279,13 @@ header{
   }
 }
 
-// Section
-.overview-product{
+// background Color
+.light-blue{
   background: linear-gradient(180deg, #F4F7FF 0%, #F1F5FF 100%);
+}
+
+// Section
+.transiago-container{
   height: 100vh;
 
   .wrapper-box-overview{
@@ -376,5 +387,40 @@ header{
       margin-left: -4px;
       color: #ADB4D2;
     }
+  }
+}
+
+// SEction of business
+.business-section{
+  background-image: url('.././img/clouds2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  .business-note{
+    width: 80%;
+    margin: 0 auto;
+    h1{
+      font-family: 'Quicksand', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: normal;
+      color: #575962;
+    }
+
+    P{
+      font-family: 'Quicksand', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: normal;
+      color: #575962;
+      margin-top: 25px;
+    }
+  }
+
+  .business-image{
+    margin: 0 auto;
   }
 }
